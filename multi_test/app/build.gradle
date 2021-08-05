@@ -1,0 +1,8 @@
+apply plugin: "application"
+
+dependencies {
+	
+	compile project(':multi_test-core')
+}
+
+mainClassName= 'app.files.test'
